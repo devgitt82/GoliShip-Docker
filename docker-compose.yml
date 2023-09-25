@@ -1,0 +1,47 @@
+version: "3.7"
+services:
+    api_service:
+        build: ./api
+        restart: always
+        ports:
+            - 8080:8080
+        depends_on:
+            - maria_db
+        command: sh -c 'java -jar app.jar'
+        networks:
+            front-tier:
+                ipv4_address: 172.16.238.10
+    maria_db:
+        image: "mariadb:latest"
+        volumes:
+            - ./sql/:/docker-entrypoint-initdb.d/:ro
+        restart: always
+        ports:
+            - 3307:3306
+        environment:
+            MYSQL_DATABASE: goli
+            MYSQL_USER: root2
+            MYSQL_PASSWORD: Biznes
+            MYSQL_ROOT_PASSWORD: Biznes
+        networks:
+            front-tier:
+                ipv4_address: 172.16.238.11
+    client_service:
+        build: ./httpd
+        restart: always
+        ports:
+            - 3000:3000
+        depends_on:
+            - api_service
+        networks:
+            front-tier:
+                ipv4_address: 172.16.238.12
+
+        
+
+networks:
+  front-tier:
+    ipam:
+      driver: default
+      config:
+        - subnet: "172.16.238.0/24"
