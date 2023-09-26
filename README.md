@@ -2,6 +2,11 @@
 
 Simple welcome on board app prepared as a support to safety induction for new joiners on board a vessel. 
 
+**Requirements:**
+---
+
+1. [Docker](https://docs.docker.com/get-docker/) installed
+   
 **Installation and running:**
 ---
 
