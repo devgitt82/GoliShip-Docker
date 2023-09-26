@@ -12,10 +12,10 @@ Simple welcome on board app prepared as a support to safety induction for new jo
 **Application login details for ordinary and admin users (OKTA authorization):**
 ---
 
-1. login: testuser@email.com
+1. login: testuser@email.com<br>
    password: `Biznes!@#!@#`
 
-2. login: adminuser@email.com
+2. login: adminuser@email.com<br>
    password: `Biznes!@#!@#`
    
 
