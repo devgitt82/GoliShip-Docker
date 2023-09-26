@@ -11,8 +11,8 @@ Simple welcome on board app prepared as a support to safety induction for new jo
 ---
 
 1. Clone repo to your local host.
-2. Run "docker compose up" command.
-3. Type "localhost:3000" on your web browser.
+2. Run `docker compose up` command.
+3. Type `localhost:3000` on your web browser.
 
 **Application login details for ordinary and admin users (OKTA authorization):**
 ---
