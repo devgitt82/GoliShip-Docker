@@ -6,7 +6,7 @@ Simple welcome on board app prepared as a support to safety induction for new jo
 - Preconfigured `MariaDB` with imported initial GoliShip SQL database dump file
 - `HTTPd` with GoliShip React client (static build files)
 - `Java 17`
-- GoliShip API resource server - build `jar` file
+- GoliShip API resource server - `jar` file
 
 **Requirements:**
 ---
