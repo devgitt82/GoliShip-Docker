@@ -11,7 +11,7 @@ Simple welcome on board app prepared as a support to safety induction for new jo
 **Requirements:**
 ---
 
-1. [Docker](https://docs.docker.com/get-docker/) installed
+1. [Docker](https://docs.docker.com/get-docker/) 
    
 **Installation and running:**
 ---
