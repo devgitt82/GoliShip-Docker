@@ -3,7 +3,7 @@
 Simple welcome on board app prepared as a support to safety induction for new joiners on board a vessel. 
 
 **Docker Version includes:**
-- Preconfigured `MariaDb` with imported initial GoliShip SQL database dump file
+- Preconfigured `MariaDB` with imported initial GoliShip SQL database dump file
 - `HTTPd` with GoliShip React client (static build files)
 - `Java 17`
 - GoliShip API resource server - build `jar` file
