@@ -13,9 +13,9 @@ Simple welcome on board app prepared as a support to safety induction for new jo
 ---
 
 1. login: testuser@email.com
-   password: Biznes!@#!@#
+   password: `Biznes!@#!@#`
 
 2. login: adminuser@email.com
-   password: Biznes!@#!@#
+   password: `Biznes!@#!@#`
    
 
